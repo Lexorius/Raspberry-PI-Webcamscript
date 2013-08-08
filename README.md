@@ -9,7 +9,7 @@ Raspberry-PI-Webcamscript
 	
 
 #2. Todo 
-- First of all please Install the Newest Firmware of the Raspary pi. Execute this:
+###First of all please Install the Newest Firmware of the Raspary pi. Execute this:
 
 	sudo apt-get update
 	sudo apt-get upgrade
@@ -19,26 +19,26 @@ Raspberry-PI-Webcamscript
 
 => after installation please Reboot
 
-- you must be shure, the Camera is switched to enabled in 
- 
+###you must be shure, the Camera is switched to enabled in 
+
 	sudo raspi-config
+	
+###set your timezone with
 
-set your timezone with
+	sudo dpkg-reconfigure tzdata
 
-	sudo dpkg-reconfigure tzdata 
-
-- We need to install some Things like ImageMagick, lftp and other stuff. So we need to execute:
+###We need to install some Things like ImageMagick, lftp and other stuff. So we need to execute:
 
 	sudo aptitude install imagemagick lftp sed at 
 
-- if you want the automatic iso Change you also need the tool "SUN" - you will get it from the steffenvogel.de homepage
+###if you want the automatic iso Change you also need the tool "SUN" - you will get it from the steffenvogel.de homepage
 > LINK :  https://github.com/stv0g/sun  
 
 Please Build and compile it (i don't explain it here ;)
 
-- now we need to download the webcam.sh script and place it into a Directory witch fits. in this case i use the /usr/bin/
+###now we need to download the webcam.sh script and place it into a Directory witch fits. in this case i use the /usr/bin/
 
-make the file executable
+#### make the file executable
 	chmod +x /usr/bin/webcam.sh
 
 and use your favourite Editor to adjust the Parameters
