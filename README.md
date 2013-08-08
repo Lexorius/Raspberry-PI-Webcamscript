@@ -3,12 +3,12 @@ Raspberry-PI-Webcamscript
 
 Raspberry-PI-Webcamscript
 
-1. What it does: 
+#####1. What it does: 
 	The webcam script is designed to take a photo, make thumbnails, add a logo and put it on a webserver via lftp.
 	additionally it adjusts the iso parameter from camera at night. it runs takes as many photos as possible. 
 	
 
-2. Todo 
+#####2. Todo 
 - First of all please Install the Newest Firmware of the Raspary pi. Execute this:
 
 sudo apt-get update
@@ -55,7 +55,7 @@ WEBSERVERFILE1="webcam.jpg"									# how the file on web/ftp server is named
 WEBSERVERFILE2="webcam_thumb.jpg"							# how the thumbnailfile on web/ftp server is named
 PIDFILE=/tmp/webcam.running									# just a pid file
 
-##### FTP Datas
+#FTP Datas
 FTPServer=""												# ftp-server
 FTPUser=""													# ftp-user
 FTPPass=""													# ftp-password 
