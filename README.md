@@ -12,15 +12,15 @@ Raspberry-PI-Webcamscript
 - First of all please Install the Newest Firmware of the Raspary pi. Execute this:
 
 	sudo apt-get update
-
 	sudo apt-get upgrade
-
 	sudo rpi-update
+	
+	
 
 => after installation please Reboot
 
 - you must be shure, the Camera is switched to enabled in 
-- 
+ 
 	sudo raspi-config
 
 set your timezone with
@@ -32,7 +32,7 @@ set your timezone with
 	sudo aptitude install imagemagick lftp sed at 
 
 - if you want the automatic iso Change you also need the tool "SUN" - you will get it from the steffenvogel.de homepage
->>>> LINK :  https://github.com/stv0g/sun   <<<<
+> LINK :  https://github.com/stv0g/sun  
 
 Please Build and compile it (i don't explain it here ;)
 
